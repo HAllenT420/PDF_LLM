@@ -7,7 +7,6 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 project_name = "PDF_LLM"  # Replace this with your actual project name
 
 list_of_files = [
-    ".github/workflows/.gitkeep",
     f"src/{project_name}/data_ingestion/extract_text.py",
     f"src/{project_name}/data_transformation/preprocess.py",
     f"src/{project_name}/data_transformation/embeddings.py",
