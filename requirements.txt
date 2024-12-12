@@ -1,0 +1,9 @@
+streamlit                   # For building the frontend
+PyPDF2                      # For extracting text from PDFs
+langchain                   # For working with LangChain pipelines
+transformers                # For Hugging Face models and pipelines
+faiss-cpu                   # For vector store (FAISS)
+sentence-transformers       # For embedding models (e.g., for sentence embeddings)
+numpy                       # For numerical operations (often required with FAISS)
+torch                       # For working with Hugging Face models
+pandas
